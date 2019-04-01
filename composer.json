@@ -2,7 +2,6 @@
     "name": "amirsanni/number-to-words",
     "description": "A simple library for converting figures to words in PHP.",
     "type": "library",
-    "license":"BSD",
     "authors": [
         {
             "name": "Amir Sanni",
