@@ -8,5 +8,10 @@
             "email": "amirsanni@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+	"autoload":{
+		"psr-4": {
+			"amirsanni\\number-to-words\\":"src/"
+		}
+	}
 }
