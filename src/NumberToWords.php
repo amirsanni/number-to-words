@@ -201,10 +201,10 @@ class NumberToWords{
 
         else{
             $first_digit = substr($digits, 0, 1);
-            $first_digit_word = $first_digit != '0' ? $this->xm()['m'][$first_digit] : "";
+            $first_digit_word = $first_digit != '0' ? $this->xml()['m'][$first_digit] : "";
             
             $second_digit = substr($digits, 1, 1);
-            $second_digit_word = $second_digit == '0' ? "" : $this->xm()['x'][$second_digit];
+            $second_digit_word = $second_digit == '0' ? "" : $this->xml()['x'][$second_digit];
             
             return trim($first_digit_word) && trim($second_digit_word) ? $first_digit_word."-".$second_digit_word : $first_digit_word." ".$second_digit_word;
         }
