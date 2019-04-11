@@ -3,7 +3,9 @@ A PHP library for converting numbers (figures) to words in specified currency co
 
 
 # Installation
+```
 composer require amirsanni/number-to-words
+```
 
 
 # Supported Currency Codes
